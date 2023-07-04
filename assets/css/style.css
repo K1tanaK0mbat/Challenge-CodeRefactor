@@ -1,10 +1,14 @@
+/* add coding to correct positioning and rendring of elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
-
+ 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 .header {
     padding: 20px;
@@ -12,28 +16,26 @@
     background-color: #2a607c;
     color: #ffffff;
 }
-
 h1 {
     display: inline-block;
     font-size: 48px;  
 }
 
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
+/* list iteams need to be in a row, starting from right side */
 ul {
     list-style-type: none; 
      display: inline-block;
     margin-left: 25px;
 }
-
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
- p {
-    display: flex;
-    flex-wrap: wrap;
- }
 
 .hero {
     height: 800px;
@@ -42,46 +44,21 @@ a {
   
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefitWords {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-
-.benefitImage{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+ /* the three sections need to be stacked in columns, aligned to the left  */
 .mainInfo {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color:black;
+    color:rgb(240, 231, 231);
     
     margin-left:25px;
 }
+
+/* add ID attributes for sections' images and text placement */
 
 .images {
     max-height: 200px;
@@ -91,10 +68,32 @@ h3 {
     float: left;
 }
 
+.benefits  {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+}
+
+
+.benefits p,
+h3{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*icons need to be centered between text blocks */
+
+.Icons{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    margin-left: 20px;
 }
 
 .footer {
