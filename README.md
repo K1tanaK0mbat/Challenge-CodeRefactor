@@ -1,4 +1,4 @@
-# Challenge 1: Organizing and Refactoring Existing Code
+# Challenge 1: Organizing and Refactoring Existing Code - Kitana K
 ## Description
 For our first challenge in the Rutgers Coding Bootcamp, we were tasked with **refactoring existing code** to the business website "Horiseon".
 While the given code did work to make a useable website, the grouping of code and the order the code was written was disorganized and hard to follow.
